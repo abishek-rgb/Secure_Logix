@@ -1,0 +1,46 @@
+.program wiegand
+
+; Wiegand Protocol for RP2350
+; D0 (base pin) active-low = 0 bit
+; D1 (base+1 pin) active-low = 1 bit
+; JMP pin = D1
+
+.wrap_target
+    wait 1 pin 0        ; Wait for D0 idle (high)
+    wait 1 pin 1        ; Wait for D1 idle (high)
+
+    jmp pin bit_zero    ; D1 still high → go wait for D0 low
+    ; D1 is low → received a 1 bit
+    in pins, 1          ; D0 is high (=1) → shifts in 1
+    jmp wait_high
+
+bit_zero:
+    wait 0 pin 0        ; Wait for D0 to go low
+    in null, 1          ; Shift in 0
+
+wait_high:
+    wait 1 pin 0        ; Wait for both lines back to idle
+    wait 1 pin 1
+    ; No push here — autopush fires automatically after 32 bits
+.wrap
+
+% c-sdk {
+static inline void wiegand_program_init(PIO pio, uint sm, uint offset, uint d0_pin, uint d1_pin) {
+    pio_sm_config c = wiegand_program_get_default_config(offset);
+
+    sm_config_set_in_pins(&c, d0_pin < d1_pin ? d0_pin : d1_pin);
+    sm_config_set_jmp_pin(&c, d1_pin);
+
+    pio_gpio_init(pio, d0_pin);
+    pio_gpio_init(pio, d1_pin);
+
+    pio_sm_set_consecutive_pindirs(pio, sm, (d0_pin < d1_pin ? d0_pin : d1_pin), 2, false);
+
+    // Left shift, autopush enabled at 32 bits
+    sm_config_set_in_shift(&c, false, true, 32);
+    sm_config_set_fifo_join(&c, PIO_FIFO_JOIN_RX);
+
+    pio_sm_init(pio, sm, offset, &c);
+    pio_sm_set_enabled(pio, sm, true);
+}
+%}

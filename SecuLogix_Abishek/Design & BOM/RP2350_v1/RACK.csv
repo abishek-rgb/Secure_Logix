@@ -1,0 +1,107 @@
+Reference,Qty,Value,Footprint
+BT1,1,Battery_Cell_2032,Battery:BatteryHolder_MYOUNG_BS-07-A1BJ001_CR2032
+BT2,1,BAT_2016,custom:BAT_2016
+BZ1,1,"Buzzer,D12.5 ,3.3V",Buzzer_Beeper:Buzzer_TDK_PS1240P02BT_D12.2mm_H6.5mm
+"C1,C2",2,"15pf,0402",Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder
+"C3,C4,C5,C28,C30,C35,C37,C68",8,"4.7uf,0603",Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder
+"C6,C7,C9,C10,C11,C12,C13,C14,C15,C16,C17,C19,C20,C21,C26,C29,C38,C39,C40,C41,C42,C50,C51,C53,C55,C56,C57,C61,C62,C63,C64,C65,C66",33,"100nf,0402",Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder
+C8,1,"4.7uf,0603",Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder
+"C18,C33,C34",3,"100pf,0603",Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder
+"C22,C23,C24,C25",4,"100pf,0402",Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder
+"C27,C31",2,"1,020,603",Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder
+C32,1,"100pF,0603",Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder
+C43,1,"10uf,1812",Capacitor_SMD:C_1812_4532Metric_Pad1.57x3.40mm_HandSolder
+C44,1,470uF/25V/D12.5,Capacitor_THT:CP_Radial_D12.5mm_P5.00mm
+"C45,C46,C47,C48",4,"0.1uf,0402",Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder
+C49,1,"20uf,1812",Capacitor_SMD:C_1812_4532Metric_Pad1.57x3.40mm_HandSolder
+C52,1,1nF/2KV,Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder
+C54,1,"100nf,0603",Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder
+C58,1,"100nf,0402.",Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder
+"C59,C60",2,"18pf,0603",Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder
+C67,1,"super cap,0805",LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder
+"D1,D3,D4,D5,D6,D7,D8,D9,D13,D39,D40",11,"M7,SMA",Diode_SMD:D_SMA
+"D2,D10,D11,D12,D14,D15,D16,D17,D18,D19,D20,D21,D22,D23,D24,D31,D34,D35,D36,D37,D38",21,"LED,0603",LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder
+"D25,D26,D27,D28,D29,D30",6,"ESD7381MUT5G,0603",Diode_SMD:D_0603_1608Metric_Pad1.05x0.95mm_HandSolder
+"D32,D33",2,"1N4007,THT",Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal
+"F1,F2,F3,F4,F5,F6,F7,F8,F9,F10",10,"PPTC,1206",Fuse:Fuse_1206_3216Metric_Pad1.42x1.75mm_HandSolder
+"FB1,FB2,FB3",3,XRCB-1608-U121-0603,Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder
+J1,1,2mm 1*2 pin and socket,Connector_PinHeader_2.00mm:PinHeader_1x02_P2.00mm_Vertical
+J2,1,2mm1*2_ connector for small pcb pin and socket,Connector_PinHeader_2.00mm:PinHeader_1x02_P2.00mm_Vertical
+J3,1,2mm 1x2_ connector for small pcb pin and socket,Connector_PinHeader_2.00mm:PinHeader_1x02_P2.00mm_Vertical
+J4,1,2.54 01*02 pin and socket,Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical
+"J5,J6,J7",3,2MM 1*16 -BERGSTICK,Connector_PinHeader_2.00mm:PinHeader_1x16_P2.00mm_Vertical
+J8,1,EMMC,custom:EMMC
+J9,1,2mm (2*4) 8pin pin and socket,Connector_PinHeader_2.00mm:PinHeader_2x04_P2.00mm_Vertical
+"J10,J16",2,3.81mm 01*04 socket,TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1-4-3.81_1x04_P3.81mm_Horizontal
+"J11,J12,J13",3,3.81mm 01x05_Socket,TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1-5-3.81_1x05_P3.81mm_Horizontal
+J14,1,3.81.mm 01x06_Socket,TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1-6-3.81_1x06_P3.81mm_Horizontal
+J15,1,3.81mm Conn_01x05_Socket,TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1-6-3.81_1x06_P3.81mm_Horizontal
+J17,1,RJE1A18854A1,custom:AMPHENOL_RJE1A18854A1
+J18,1,2.54 01*04 socket,Connector_PinSocket_2.54mm:PinSocket_1x04_P2.54mm_Vertical
+J19,1,2.54mm 01*06 socket,Connector_PinHeader_2.54mm:PinHeader_1x06_P2.54mm_Vertical
+J20,1,3.81mm 01*05,TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1-5-3.81_1x05_P3.81mm_Horizontal
+"J21,J22,J23",3,2mm 01*02pin and scocket,Connector_PinHeader_2.00mm:PinHeader_1x02_P2.00mm_Vertical
+"J24,J27",2,3.81mm 01x04_Socket,TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1-4-3.81_1x04_P3.81mm_Horizontal
+J25,1,485_ETHERNET_JACK_OUT 1*8,Connector_RJ:RJ45_Amphenol_54602-x08_Horizontal
+J26,1,485_ETHERNET_JACK_IN 1*8,Connector_RJ:RJ45_Amphenol_54602-x08_Horizontal
+J28,1,2.00mm 01*02 CONN,Connector_PinHeader_2.00mm:PinHeader_1x02_P2.00mm_Vertical
+J29,1,1.25mm _01x04_Socket,Connector_Hirose:Hirose_DF13-04P-1.25DSA_1x04_P1.25mm_Vertical
+J30,1,USB_B_Micro,custom:USB3131-30-0230-A
+J31,1,2.54mm  01*02,Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical
+J32,1,2.54mm 01x02,Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical
+J33,1,3.81mm 01*02,TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1-2-3.81_1x02_P3.81mm_Horizontal
+"J34,J38",2,Conn_01x02_Pin,custom:GND
+J35,1,3.81mm 01*05,TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1-6-3.81_1x06_P3.81mm_Horizontal
+J36,1,Conn_01x02_Pin,custom:12v
+J37,1,Conn_01x02_Pin,custom:3.3v
+"K1,K2,K3,K4",4,SRD-12VDC-SL-C,custom:RELAY_SRD-12VDC-SL-C
+L1,1,"3.3uh,0805",Inductor_SMD:L_0805_2012Metric_Pad1.05x1.20mm_HandSolder
+L2,1,"2.2uH,2512",Inductor_SMD:L_2512_6332Metric_Pad1.52x3.35mm_HandSolder
+"LED1,LED3",2,"LED2,0603",LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder
+LED2,1,"led1,0603",LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder
+Q1,1,"BC547, SOT416",Package_TO_SOT_SMD:SOT-416
+"Q2,Q3,Q4,Q5,Q18,Q19,Q20,Q21,Q22,Q23",10,"BC547,SOT416",Package_TO_SOT_SMD:SOT-416
+"Q6,Q7,Q8,Q9,Q10,Q11,Q12,Q13,Q14,Q15,Q16,Q17,Q24,Q25,Q26,Q27",16,"NPN,SOT23",Package_TO_SOT_SMD:SOT-23
+"R1,R12,R13,R26,R34,R35,R36,R37,R39,R46,R47,R55,R56,R57,R93,R94",16,"1K,0402",Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder
+R2,1,"33E,0402",Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder
+"R3,R4",2,"220R,0402",Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder
+R5,1,"1K,0402",Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder
+R6,1,"3K3,0603",Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder
+"R7,R8",2,"27E,0402",Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder
+"R9,R10,R128",3,"2.2K,0402",Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder
+R11,1,"1k,0402",Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder
+"R14,R15,R16,R17",4,"10K,0402",Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder
+"R18,R19,R22,R24",4,"120K,0402",Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder
+"R20,R21,R23,R25,R83,R87,R88,R89,R90",9,"120R,0603",Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder
+"R27,R31,R32,R33,R59,R60,R61,R62,R67,R71,R72,R76,R77,R78,R115,R116,R117,R118,R123",19,"4k7,0603",Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder
+"R28,R29,R30,R38,R48,R107,R113,R114,R127",9,"0R,0603",Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder
+"R40,R41,R49,R50",4,"47K,0603",Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder
+"R42,R43,R44,R45,R51,R52,R53,R54",8,"4K7,0603",Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder
+R58,1,"2K2,0603",Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder
+"R63,R64,R65,R66,R68,R69,R70,R73,R74,R75,R119,R120,R121,R122,R124",15,"1K5,0603",Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder
+"R79,R80,R81",3,"1K,0603",Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder
+"R82,R84,R85,R86",4,"560R,0603",Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder
+R91,1,"10K,0603",Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder
+R92,1,"2K2,1206",Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder
+R95,1,"100K,0603",Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder
+R96,1,"22.1K,0603",Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder
+"R97,R98,R125,R126",4,"10K,0402",Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder
+"R99,R100",2,"470R,0603",Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder
+"R101,R102,R103,R104",4,"49.9R,0603",Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder
+"R105,R106,R108,R109",4,"3R3,0603",Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder
+R110,1,"1M,0603",Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder
+R111,1,"12K,0603",Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder
+R112,1,"300R,0603",Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder
+"SW1,SW2",2,TACT-SW-3X4X2,Button_Switch_SMD:SW_SPST_EVQPE1
+U1,1,RP2350/2354B,Package_DFN_QFN:QFN-80-1EP_10x10mm_P0.4mm_EP3.4x3.4mm_ThermalVias
+"U2,U3",2,W25Q128JVSIQ,custom:w25q
+"U4,U5,U6,U7,U8,U9,U10,U11,U12,U13,U22,U23,U24,U25,U26",15,EL817_A449V,custom:Untitled
+"U14,U15,U16",3,MAX485CSA,Package_SO:SOIC-8_3.9x4.9mm_P1.27mm
+U17,1,PY32L020F15P6,Package_SO:TSSOP-20_4.4x6.5mm_P0.65mm
+U18,1,SY8113,Package_TO_SOT_SMD:SOT-23-6
+U19,1,L7803,custom:DCDC_3V3
+U20,1,XL9555_TSSOP24,custom:TSSOP-24_XL9555_TSSOP24
+U21,1,W6100,custom:w6100l
+U27,1,SD3231M,Package_SO:SO-8_3.9x4.9mm_P1.27mm
+Y1,1,ABM8-12.000MHz-B4-T,Crystal:Crystal_SMD_Abracon_ABM8G-4Pin_3.2x2.5mm
+Y2,1,"25MHz,3225",Crystal:Crystal_SMD_3225-4Pin_3.2x2.5mm_HandSoldering

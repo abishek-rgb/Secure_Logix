@@ -1,0 +1,2 @@
+ dorebell interupt register for a core (SIO_IRQ_BELL,interrupt number 26) 
+
